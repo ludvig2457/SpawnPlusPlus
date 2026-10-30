@@ -1,0 +1,6 @@
+settings:
+  spawn:
+    # Cooldown between teleports (seconds). 0 disables the cooldown.
+    cooldown-seconds: 10
+    # Block /spawn while the player has an active combat tag from Combat++.
+    block-in-combat: true

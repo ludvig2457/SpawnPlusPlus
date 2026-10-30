@@ -1,0 +1,23 @@
+name: SpawnPlusPlus
+version: '${version}'
+main: com.ludvig.spawnplus.SpawnPlusPlugin
+api-version: '1.21'
+folia-supported: true
+authors: [ludvig2457]
+description: Spawn++ - combat-safe spawn teleport with cooldowns for Paper/Folia.
+website: https://github.com/ludvig2457
+commands:
+  spawn:
+    description: Teleport to spawn.
+    usage: /spawn [set|reload]
+    permission: spawnplus.use
+permissions:
+  spawnplus.use:
+    description: Allows using /spawn.
+    default: true
+  spawnplus.bypass:
+    description: Bypasses the spawn cooldown.
+    default: op
+  spawnplus.admin:
+    description: Allows setting spawn and reloading Spawn++.
+    default: op
